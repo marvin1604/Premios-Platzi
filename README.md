@@ -18,12 +18,12 @@ Muestra del resultado de las encuestas.
 
 #### Visualiza la App:
 
-### Login
-![](https://github.com/marvin1604/easy-notes/blob/main/app/static/images/log.JPG)
-### Principal
-![](https://github.com/marvin1604/easy-notes/blob/main/app/static/images/principal1.JPG)
-### Principal 2
-![](https://github.com/marvin1604/easy-notes/blob/main/app/static/images/principal2.JPG)
+### Menu de Preguntas
+![](https://github.com/marvin1604/Premios-Platzi/blob/main/images/menu.JPG)
+### Menu de Respuestas
+![](hhttps://github.com/marvin1604/Premios-Platzi/blob/main/images/question.JPG)
+### Resultados de Respuestas
+![](https://https://github.com/marvin1604/Premios-Platzi/blob/main/images/resultados.JPG)
 
 
 #### Mi carrera en Platzi
