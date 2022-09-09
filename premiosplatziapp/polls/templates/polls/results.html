@@ -1,7 +1,27 @@
-<h1>{{question.question_text}}</h1>
-<ul>
-    {% for choice in question.choice_set.all  %}
-        <li>{{choice.choice_text}}  --  {{choice.votes}} vote{{choice.votes | pluralize}}</li>
-    {% endfor %}
-</ul>
-<a href="{% url 'polls:detail' question.id %}">¿Te gustaria votar de nuevo?</a>
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="descripcion" content="Esta pagina es un proyecto en django sobre encuentas de platzi">
+    <link rel="stylesheet" href="{% static 'polls/style.css' %}">
+    <link rel="stylesheet" href="{% static 'polls/results.css' %}"> 
+    <title>{{question.question_text}}</title>
+</head>
+<body>
+    <h1>{{question.question_text}}</h1>
+    <ul>
+        {% for choice in question.choice_set.all  %}
+            <li>{{choice.choice_text}}  --  {{choice.votes}} vote{{choice.votes | pluralize}}</li>
+        {% endfor %}
+    </ul>
+    <a href="{% url 'polls:detail' question.id %}">¿Te gustaria votar de nuevo?</a>
+    <a href="{% url 'polls:index' %}">Inicio</a>
+</body>
+</html>
+
+
+
+
+
