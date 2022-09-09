@@ -21,9 +21,9 @@ Muestra del resultado de las encuestas.
 ### Menu de Preguntas
 ![](https://github.com/marvin1604/Premios-Platzi/blob/main/images/menu.JPG)
 ### Menu de Respuestas
-![](hhttps://github.com/marvin1604/Premios-Platzi/blob/main/images/question.JPG)
+![](https://github.com/marvin1604/Premios-Platzi/blob/main/images/question.JPG)
 ### Resultados de Respuestas
-![](https://https://github.com/marvin1604/Premios-Platzi/blob/main/images/resultados.JPG)
+![](https://github.com/marvin1604/Premios-Platzi/blob/main/images/resultados.JPG)
 
 
 #### Mi carrera en Platzi
