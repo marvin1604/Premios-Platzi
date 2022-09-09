@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    height: 100vh;
+    background: hsl(204 100% 5%);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    
+}
+h1{
+    background: linear-gradient(
+        to right,
+        hsl(98 100% 62%),
+        hsl(204 100% 59%)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+body a{
+    padding: 20px;
+    color : white;
+}
